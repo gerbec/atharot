@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './Title1';","map":{"version":3,"sources":["/Users/alejandro/Documents/Atharot/components/Title1/index.js"],"names":["default"],"mappings":"AAAA,SAAQA,OAAR,QAAsB,UAAtB","sourcesContent":["export {default} from './Title1';\n"]},"metadata":{},"sourceType":"module"}

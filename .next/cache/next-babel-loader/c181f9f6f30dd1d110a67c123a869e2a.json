@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './Section';","map":{"version":3,"sources":["/Users/alejandro/Documents/Atharot/components/Section/index.js"],"names":["default"],"mappings":"AAAA,SAAQA,OAAR,QAAsB,WAAtB","sourcesContent":["export {default} from './Section';\n"]},"metadata":{},"sourceType":"module"}

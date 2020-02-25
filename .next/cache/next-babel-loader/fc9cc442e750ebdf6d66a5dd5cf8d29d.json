@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './Header';","map":{"version":3,"sources":["/Users/alejandro/Documents/Atharot/components/Header/index.js"],"names":["default"],"mappings":"AAAA,SAAQA,OAAR,QAAsB,UAAtB","sourcesContent":["export {default} from './Header';\n"]},"metadata":{},"sourceType":"module"}
