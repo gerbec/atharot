@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import styled, {createGlobalStyle} from 'styled-components';
 import {Button, Header, Footer, Main, Section, Title1} from '../components';
-import Fonts from '../utils/Fonts';
+import Fonts from '../../utils/Fonts';
 
 const Body = styled.body`
     background-color: '#ffffff';
