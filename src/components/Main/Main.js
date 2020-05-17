@@ -68,7 +68,7 @@ class Main extends React.Component {
     render() {
         return (
             <Container>
-                <Blueprint>
+                {/* <Blueprint>
                     <Ps4Controller>
                         <ArrowsCircle></ArrowsCircle>
                         <ButtonsCircle></ButtonsCircle>
@@ -79,7 +79,7 @@ class Main extends React.Component {
                         <BodyCircleRight></BodyCircleRight>
                         <BodyCircleLeft></BodyCircleLeft>
                     </Ps4Controller>
-                </Blueprint>
+                </Blueprint> */}
             </Container>
         );
     }
