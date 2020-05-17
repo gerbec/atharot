@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './Ps4Controller';","map":{"version":3,"sources":["/Users/alejandro/Documents/Atharot/src/components/Ps4Controller/index.js"],"names":["default"],"mappings":"AAAA,SAAQA,OAAR,QAAsB,iBAAtB","sourcesContent":["export {default} from './Ps4Controller';\n"]},"metadata":{},"sourceType":"module"}

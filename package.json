@@ -18,24 +18,24 @@
     "author": "acamica-dev",
     "license": "ISC",
     "dependencies": {
-        "@storybook/addon-a11y": "^5.3.12",
-        "@storybook/addon-knobs": "^5.3.12",
-        "@storybook/addon-storysource": "^5.3.12",
+        "@storybook/addon-a11y": "^5.3.18",
+        "@storybook/addon-knobs": "^5.3.18",
+        "@storybook/addon-storysource": "^5.3.18",
         "fontfaceobserver": "^2.1.0",
-        "next": "^9.2.1",
+        "next": "^9.4.1",
         "prop-types": "^15.7.2",
-        "react": "^16.13.0",
-        "react-dom": "^16.13.0",
-        "styled-components": "^5.0.1"
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "styled-components": "^5.1.0"
     },
     "devDependencies": {
-        "@babel/core": "^7.8.7",
-        "@storybook/addon-actions": "^5.3.12",
-        "@storybook/addon-links": "^5.3.12",
-        "@storybook/addon-viewport": "^5.3.12",
-        "@storybook/addons": "^5.3.12",
-        "@storybook/react": "^5.3.17",
-        "babel-loader": "^8.0.6",
+        "@babel/core": "^7.9.6",
+        "@storybook/addon-actions": "^5.3.18",
+        "@storybook/addon-links": "^5.3.18",
+        "@storybook/addon-viewport": "^5.3.18",
+        "@storybook/addons": "^5.3.18",
+        "@storybook/react": "^5.3.18",
+        "babel-loader": "^8.1.0",
         "babel-plugin-styled-components": "^1.8.0"
     }
 }
