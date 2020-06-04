@@ -131,7 +131,7 @@ class Main extends React.Component {
                     <Title>Como lo instalamos ? </Title>
                     <ConsoleTag>npm install --save styled-components</ConsoleTag>
                     <Texto>
-                        Además de esto nos permite escribir CSS como nos dicto el gran oraculo W3C.
+                        Además de esto nos permite escribir CSS como nos dicta the oracle W3C.
                     </Texto>
                 </Step>
 
@@ -220,6 +220,16 @@ class Main extends React.Component {
                             proyectos los cuales cada uno poseeran su propio theme
                         </ConTheme>
                     </ThemeProvider>
+                </Step>
+
+                <Step>
+                    <Title> Styled compontents en typescript</Title>
+                    <Texto>
+                        {' '}
+                        es similar lo unico que hay que tener en cuenta es q debemos definir el tipo
+                        en cada compoente o cada prop que le pasemos esta parte la voy a explicar
+                        con el repo de la nueva plataforma
+                    </Texto>
                 </Step>
             </Container>
         );
