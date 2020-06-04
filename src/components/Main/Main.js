@@ -124,7 +124,7 @@ class Main extends React.Component {
                     <Title>¿Que es styled components?</Title>
                     <Texto>
                         Es una libreria que nos permite crear un componente al mismo tiempo que
-                        definimos sus estilos a partir de cualquier etiqueta.
+                        definimos sus estilos.
                     </Texto>
                 </Step>
                 <Step>
