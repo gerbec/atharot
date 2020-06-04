@@ -13,6 +13,7 @@ const Container = styled.header`
     position: sticky;
     top: 0px;
     width: 100%;
+    z-index: 100;
 `;
 
 class Header extends React.Component {
@@ -24,8 +25,10 @@ class Header extends React.Component {
     render() {
         return (
             <Container>
-                <Title1>Atharot</Title1>
-                <Title1>AAG</Title1>
+                <Title1>Styled components</Title1>
+                <Title1>
+                    <a href="https://styled-components.com/">https://styled-components.com/</a>
+                </Title1>
             </Container>
         );
     }

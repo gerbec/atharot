@@ -3,7 +3,7 @@ import styled, {createGlobalStyle} from 'styled-components';
 import {Button, Header, Footer, Main, Section, Title1} from '../components';
 import Fonts from '../../utils/Fonts';
 
-const Body = styled.body`
+const Body = styled.div`
     background-color: '#ffffff';
     padding: 0;
     margin: 0;
@@ -38,13 +38,15 @@ class index extends React.Component {
                     <meta name="msapplication-TileColor" content="#FFFFFF" />
                     <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
 
-                    <title>Atharot</title>
+                    <title>Styled components</title>
                 </Head>
-                <Body>
-                    <Header />
-                    <Main />
-                    <Footer />
-                </Body>
+                <body>
+                    <Body>
+                        <Header />
+                        <Main />
+                        <Footer />
+                    </Body>
+                </body>
             </>
         );
     }
