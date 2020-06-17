@@ -17,7 +17,7 @@ const move = keyframes`
   }
 
   to {
-    background-position: -2px -2px, -2px -2px, -1px 20px, -1px -1px;
+    background-position: -2px -2px,-2px -2px,-1px 20px,-1px -1px;
   }
 `;
 
@@ -27,11 +27,11 @@ const Floor = styled.div`
     margin: auto;
     background-color: #000;
     background-image: linear-gradient(cyan 0px, transparent 0px),
-        linear-gradient(90deg, cyan 0px, transparent 0px),
+        linear-gradient(90deg, cyan 4px, transparent 0px),
         linear-gradient(cyan 1px, transparent 1px),
         linear-gradient(90deg, cyan 1px, transparent 1px);
-    background-size: 100px 100px, 100px 100px, 20px 20px, 100px 100px;
-    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    background-size: 20% 20%, 20% 20%, 20% 5%, 20% 20%;
+    background-position: -2px -2px, -2px -2px, -1px -9px, -1px -1px;
     transform-style: preserve-3d;
     transform: perspective(125px) rotateX(45deg);
     animation: ${move} 0.5s linear infinite;
