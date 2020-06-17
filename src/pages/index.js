@@ -3,7 +3,7 @@ import styled, {createGlobalStyle} from 'styled-components';
 import {Button, Header, Footer, Main, Section, Title1} from '../components';
 import Fonts from '../../utils/Fonts';
 
-const Body = styled.div`
+const Body = styled.body`
     background-color: '#ffffff';
     padding: 0;
     margin: 0;
@@ -40,13 +40,12 @@ class index extends React.Component {
 
                     <title>Styled components</title>
                 </Head>
-                <body>
-                    <Body>
-                        <Header />
-                        <Main />
-                        <Footer />
-                    </Body>
-                </body>
+
+                <Body>
+                    <Header />
+                    <Main />
+                    <Footer />
+                </Body>
             </>
         );
     }

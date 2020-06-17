@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 
-const Container = styled.div`
-    transform: scale(0.8);
-`;
+const Container = styled.div``;
 
 export default Container;
