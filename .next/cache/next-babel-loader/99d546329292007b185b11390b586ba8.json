@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './Phantom';","map":{"version":3,"sources":["/Users/alejandro/Documents/Atharot/src/components/CircleEye/index.js"],"names":["default"],"mappings":"AAAA,SAAQA,OAAR,QAAsB,WAAtB","sourcesContent":["export {default} from './Phantom';\n"]},"metadata":{},"sourceType":"module"}
